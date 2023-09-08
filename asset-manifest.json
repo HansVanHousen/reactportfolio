@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/HansVanHousen/reactportfolio/static/css/main.299d7228.css",
+    "main.js": "/HansVanHousen/reactportfolio/static/js/main.1ffc35ac.js",
+    "static/media/LostCoast.jpg": "/HansVanHousen/reactportfolio/static/media/LostCoast.2e70c24c2be3727e6348.jpg",
+    "static/media/resume.jpg": "/HansVanHousen/reactportfolio/static/media/resume.b3521f9fb0a0e3abacd2.jpg",
+    "static/media/password.png": "/HansVanHousen/reactportfolio/static/media/password.7c5115527aef2acabd45.png",
+    "static/media/JSQuiz.png": "/HansVanHousen/reactportfolio/static/media/JSQuiz.6824585a99b063a49b01.png",
+    "static/media/linework.jpg": "/HansVanHousen/reactportfolio/static/media/linework.b851fc8f2ce618af6bb4.jpg",
+    "static/media/NoteTaker.png": "/HansVanHousen/reactportfolio/static/media/NoteTaker.6976d9b16dd607165d37.png",
+    "static/media/mysql.jpg": "/HansVanHousen/reactportfolio/static/media/mysql.97b7cd58333151bc8c3b.jpg",
+    "static/media/workday.png": "/HansVanHousen/reactportfolio/static/media/workday.5fd221370b5d6f9cc555.png",
+    "static/media/JATE.png": "/HansVanHousen/reactportfolio/static/media/JATE.3145086bad7cb804dc67.png",
+    "index.html": "/HansVanHousen/reactportfolio/index.html",
+    "main.299d7228.css.map": "/HansVanHousen/reactportfolio/static/css/main.299d7228.css.map",
+    "main.1ffc35ac.js.map": "/HansVanHousen/reactportfolio/static/js/main.1ffc35ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.299d7228.css",
+    "static/js/main.1ffc35ac.js"
+  ]
+}
