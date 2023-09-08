@@ -1,21 +1,24 @@
 import React from 'react';
+import LostCoast from '../assets/LostCoast.jpg';
+import '../App.css';
 
 export default function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+      <div className="navigation-bar">
+      
+      </div>
+      <div>
+        <h1>Hans Van Housen</h1>
+        <p>
+          Welcome to my home page. Here you can find information about me, some of my recent projects, my contact information, and my resume.
+        </p>
+        <div className='homeimg'>
+          <div className='image'>
+            <img src={LostCoast} alt="A guy and his dog on the beach backpacking" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

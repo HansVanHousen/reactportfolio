@@ -10,7 +10,9 @@ export default function AboutMe() {
           <h1>Hans Van housen</h1>
           <p>Full-Stack Developer</p>
           <a href="mailto:hansvanhousen.com" rel="email" target="_blank"><p className='email'>Email</p></a>
-         
+          <a href="https://github.com/HansVanHousen" rel="github" target="_blank"><p className='email'>Github</p></a>
+          <a href="https://www.instagram.com/leadlinedmind/" rel="instagram" target="_blank"><p className='email'>Instagram</p></a>
+
         </div>
         <div className='bio'>
           <h3>About me</h3>

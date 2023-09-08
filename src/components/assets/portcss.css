@@ -1,0 +1,25 @@
+/* PortfolioContainer.css */
+body {
+    background-color: gray
+  }
+  
+  .navigation-tabs {
+    background-color: rgb(39, 36, 36); /* Set the navigation tabs background color  */
+    padding: 10px; /* Add some padding to the navigation tabs */
+    display: flex; /* Make the navigation tabs display horizontally */
+    justify-content: center; /* Center-align the navigation tabs */
+  }
+  
+  .navigation-tabs button {
+    background-color: transparent; /* Make the tab buttons transparent */
+    border: none; /* Remove the button border */
+    margin: 0 10px; /* Add some margin to separate the buttons */
+    padding: 5px 10px; /* Add padding to the buttons */
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
+  
+  .navigation-tabs button:hover {
+    background-color: rgb(86, 31, 31); /* Change the button background color on hover */
+    color: rgb(13, 9, 9); /* Change the text color on hover */
+  }
+  
