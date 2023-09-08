@@ -1,99 +1,216 @@
 /* portfolio */
 .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
 }
 
 .image {
-    text-align: center;
+  text-align: center;
 }
 
 .image img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .portfolio > div:first-child {
-    text-align: center;
-  }
+  text-align: center;
+}
+.portfolio-container {
+  background-color: rgb(176, 170, 170);
+  padding: 20px;
+}
 
-  /* contact  */
+/* contact  */
 .contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-  }
-  
-  .form {
-    background-color: #f5f5f5;
-    padding: 20px;
-    border-radius: 10px;
-    width: 80%;
-    max-width: 400px;
-    text-align: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .contact-header {
-    color: #333;
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  label {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-    text-align: left;
-  }
-  
-  input[type='text'],
-  input[type='email'],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .error {
-    color: red;
-    font-size: 12px;
-    text-align: left;
-  }
-  
-  button[type='submit'] {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  button[type='submit']:hover {
-    background-color: #0056b3;
-  }
-  
-  .Hans {
-    margin-top: 20px;
-  }
-  
-  .email {
-    color: #007bff;
-    margin: 5px;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .email:hover {
-    text-decoration: underline;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
 
-  /* resume */
+.form {
+  background-color: rgb(218, 216, 216);
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-header {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  text-align: left;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.Hans {
+  margin-top: 20px;
+}
+
+.email {
+  color: #007bff;
+  margin: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+
+.contact-container {
+  background-color: rgb(176, 170, 170);
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Optional: Ensure the form takes up the full viewport height */
+}
+
+/* resume */
+.page {
+  background-color: rgb(176, 170, 170);
+  padding: 20px;
+}
+
+.resume {
+  background-color: rgb(218, 216, 216);
+
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+hr.star-secondary {
+  border: 1px solid #007bff;
+  margin: 20px auto;
+  width: 50px;
+}
+
+ul.list-inline {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.list-inline-item {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.resume-item {
+  margin-top: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+h5 {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* home */
+/* App.css */
+
+/* Navigation bar styles */
+.navigation-bar {
+  background-color: #333;
+  color: rgb(154, 136, 136);
+  padding: 10px;
+  text-align: center;
+}
+
+/* Header styles */
+h1 {
+  font-size: 36px;
+  margin-top: 20px;
+  color: #0a0707;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 18px;
+  margin: 20px;
+  line-height: 1.5;
+  color: #0a0707;
+}
+
+/* home */
+/* App.css */
+
+/* Navigation bar styles */
+.navigation-bar {
+  background-color: #333;
+  color: rgb(154, 136, 136);
+  padding: 10px;
+  text-align: center;
+}
+
+.home-container {
+  background-color: rgb(176, 170, 170);
+  padding: 20px;
+}
+
+/* portfolio */
+/* App.css */

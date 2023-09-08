@@ -11,7 +11,7 @@ import PassGen from '../assets/password.png';
 
 export default function Portfolio() {
     return (
-        <section>
+        <section className="portfolio-container">
             <div className='portfolio'>
                 <div>
                     <h2>My Portfolio</h2>
